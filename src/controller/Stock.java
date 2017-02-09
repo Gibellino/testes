@@ -13,6 +13,11 @@ public class Stock {
 		this.articles = articles;
 	}
 	
+	public Stock(){
+		
+		articles = new ArrayList<>();
+	}
+	
 	public void addArticle(Article a){
 		
 		this.articles.add(a);
